@@ -28,7 +28,7 @@ class Block {
         return new this('Genesis time', '----', 'adi10naw10', [], 0, DIFFICULTY);
     }
 
-    static mineBlock(lastBlock, data) {
+    static mineBlock(lastBlock, data) { 
         let hash, timestamp;
         const lastHash = lastBlock.hash;
         let nonce = 0;
